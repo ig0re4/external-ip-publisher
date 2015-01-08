@@ -1,13 +1,13 @@
 # external-ip-publisher
 ##About
  The external IP Address publisher is a java based application runs on the Windows only. The publisher is registered 
-as a windows service and polling your computer external IP address and in case then IP address change, the service 
-sends the e-mail notification regarding your new IP Address.
+as a windows service and poll your computer external IP address and in case then it change, the service 
+sends e-mail notification with your new IP Address.
 
 ##Configuration
- The configuration defined in the ip-notifier.ini file. Please follow instruction according the my comment.
+ The configuration defined in the ip-notifier.ini file. Please follow my comments.
 ##Password Encryption
-  One of the configuration properties its your email password, which you need to create by the following command
+  One of the configuration properties its your email password, which you need to create by command
   java com.ip.notifier.StringCryptor <command> <text>
   command :
 		-e - encrypt text.
