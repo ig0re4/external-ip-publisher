@@ -19,7 +19,7 @@ sends the e-mail notification regarding your new IP Address.
 3. Open "Services" application and start the IP Notifier service.
 4. Delete IP Notifier service run : ip-notifier.exe --WinRun4J:UnregisterService.
 
-###The application uses the winrun4j tool http://winrun4j.sourceforge.net for the Windows service functionality handling.
+#####The application uses the winrun4j tool http://winrun4j.sourceforge.net for the Windows service functionality handling.
 
 
 
