@@ -9,9 +9,13 @@ Configuration defined in the ip-notifier.ini file. Please follow my comments.
 
 ###Password Encryption
 One of the configuration properties its your email password, which shall be encrypted by next command: 
+
 java com.ip.notifier.StringCryptor <option> <text> 
+
 Possible options :
+
 -e - encrypt text.
+
 -d - decrypt text.
 
 ##Execute
