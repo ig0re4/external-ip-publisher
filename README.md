@@ -5,14 +5,14 @@ as a windows service, polls your computer external IP address and in case it's c
 sends e-mail notification with your new IP Address to the configured destination.
 
 ##Configuration
- Configuration defined in the ip-notifier.ini file. Please follow my comments.
+Configuration defined in the ip-notifier.ini file. Please follow my comments.
+
 ###Password Encryption
- One of the configuration properties its your email password, which shall be 
-  encrypted by next command 
-  java com.ip.notifier.StringCryptor <option> <text>
-  Possible options :
-     -e - encrypt text.
-     -d - decrypt text.
+One of the configuration properties its your email password, which shall be encrypted by next command: 
+java com.ip.notifier.StringCryptor <option> <text> 
+Possible options :
+-e - encrypt text.
+-d - decrypt text.
 
 ##Execute
 1. Copy deploy folder to your computer.
