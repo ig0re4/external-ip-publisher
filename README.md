@@ -8,11 +8,11 @@ sends e-mail notification with your new IP Address to the configured destination
 Configuration defined in the ip-notifier.ini file. Please follow my comments.
 
 ###Password Encryption
-One of the configuration properties its your email password, which shall be encrypted by next command: 
-	java com.ip.notifier.StringCryptor <option> <text> 
-		Possible options :
-			-e - encrypt text.
-			-d - decrypt text.
+One of the configuration properties its your email password, which shall be encrypted by next command: <br>
+java com.ip.notifier.StringCryptor <option> <text><br> 
+&nbsp;&nbsp;&nbsp;Possible options :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-e - encrypt text.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d - decrypt text.<br>
 
 ##Execute
 1. Copy deploy folder to your computer.
